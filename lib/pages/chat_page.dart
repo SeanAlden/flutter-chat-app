@@ -342,7 +342,8 @@ class ChatPage extends StatelessWidget {
         decoration: BoxDecoration(
           color: isCurrentUser
               ? theme.colorScheme.primary
-              : (isDark ? Colors.grey[800] : Colors.grey[300]),
+              : (isDark ? Colors.grey[800] : Colors.white),
+              // : (isDark ? Colors.grey[800] : Colors.grey[300]),
           borderRadius: BorderRadius.only(
             topLeft: const Radius.circular(12),
             topRight: const Radius.circular(12),
